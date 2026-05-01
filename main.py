@@ -3,6 +3,10 @@ import ollama
 model = 'huihui_ai/qwen2.5-abliterate:7b-instruct'
 print(f"Iniciando chat com {model}. Digite 'sair' para encerrar.")
 
+freq = [{'seg' : 'pass'}]
+
+""""""""
+
 messages = []
 
 while True:
